@@ -2,7 +2,7 @@ import os
 from telegram.ext import Updater, CommandHandler
 
 def start(update, context):
-    update.message.reply_text("机器人部署成功啦！")
+    update.message.reply_text("✅ 机器人部署成功！")
 
 def main():
     updater = Updater(os.getenv("BOT_TOKEN"), use_context=True)
