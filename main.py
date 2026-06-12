@@ -8,7 +8,7 @@ logging.basicConfig(
 )
 
 def start(update, context):
-    update.message.reply_text("✅ 机器人部署成功！/start 命令生效了！")
+    update.message.reply_text("✅ 机器人部署成功！")
 
 def main():
     token = os.getenv("BOT_TOKEN")
