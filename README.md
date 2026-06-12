@@ -1,2 +1,0 @@
-# Repository-name
-crypto-bot
