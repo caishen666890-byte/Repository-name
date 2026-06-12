@@ -14,7 +14,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     token = os.getenv("BOT_TOKEN")
     if not token:
-        logging.error("❌ 错误：BOT_TOKEN 环境变量未设置！")
+        logging.error("❌ 错误：BOT_TOKEN 环境变量未设置")
         return
 
     app = Application.builder().token(token).build()
